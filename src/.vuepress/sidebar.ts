@@ -16,6 +16,12 @@ export default sidebar({
       prefix: "posts/",
       children: "structure",
     },
+    {
+      text: "算法竞赛笔记",
+      icon: "calculator",
+      prefix: "Algorithm/",
+      children: "structure",
+    },
     "intro",
     "slides",
   ],
