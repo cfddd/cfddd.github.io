@@ -22,6 +22,12 @@ export default sidebar({
       prefix: "Algorithm/",
       children: "structure",
     },
+    {
+      text: "OS操作系统",
+      icon: "desktop",
+      prefix: "OS/",
+      children: "structure",
+    },
     "intro",
     "slides",
   ],

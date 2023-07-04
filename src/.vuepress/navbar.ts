@@ -6,6 +6,58 @@ export default navbar([
   "/demo/",
   "/Algorithm/",
   {
+    text: "OS",
+    icon: "desktop",
+    prefix: "/OS/",
+    children: [
+          { text: "c++多线程之互斥锁", icon: "desktop", link: "1" },
+          {
+            text: "OS操作系统知识点总结",
+            icon: "desktop",
+            prefix: "OS操作系统知识点总结/",
+            children: [
+              {
+                text: "导论",
+                icon: "pen-to-square",
+                link: "21",
+              },
+              {
+                text: "进程的描述与控制",
+                icon: "pen-to-square",
+                link: "22",
+              },
+              {
+                text: "处理机调度与死锁",
+                icon: "pen-to-square",
+                link: "23",
+              },
+              {
+                text: "进程同步",
+                icon: "pen-to-square",
+                link: "24",
+              },
+              {
+                text: "死锁",
+                icon: "pen-to-square",
+                link: "255",
+              },
+              {
+                text: "存储器管理",
+                icon: "pen-to-square",
+                link: "26",
+              },
+              {
+                text: "虚拟存储器",
+                icon: "pen-to-square",
+                link: "27",
+              },
+            ],
+          },
+          
+
+    ]
+  },
+  {
     text: "博文",
     icon: "pen-to-square",
     prefix: "/posts/",
