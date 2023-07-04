@@ -2,7 +2,7 @@ import { defineUserConfig } from "vuepress";
 import theme from "./theme.js";
 
 export default defineUserConfig({
-  base: "/cfddd.github.io/",
+  base: "/",
 
   lang: "zh-CN",
   title: "俄罗斯刺沙蓬",
