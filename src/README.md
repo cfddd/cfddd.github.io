@@ -6,7 +6,7 @@ title: 博客主页
 heroImage: /logo.svg
 heroText: 俄罗斯刺沙蓬
 heroFullScreen: true
-tagline: 日供一卒，功在不舍
+tagline: 日拱一卒，功不唐捐
 projects:
   - icon: project
     name: 项目名称
